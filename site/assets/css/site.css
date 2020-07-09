@@ -13,20 +13,19 @@ a:hover {
     justify-content: space-between;
 }
 
-.header__title {
-    margin-left: 48px;
-}
-
-.header__buttons-wrapper {
-    margin-right: 48px;
-}
-
 .header__button {
     margin: 10px;
 }
 
+body {
+    margin: 0 auto;
+    max-width: 1168px;
+}
 
-
+body, html, .top {
+    height: 100vh;
+    overflow-x: hidden;
+}
 
 .footer__wrapper {
     bottom: 0;
@@ -40,4 +39,64 @@ a:hover {
 
 .footer__button {
     margin: 20px;
+}
+
+.main__project {
+    display: flex;
+    flex-grow: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main__project div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    transition: background-color .5s;
+    z-index: 2;
+}
+
+.main__project-container {
+    display: flex;
+    flex: 1;
+}
+
+.main__project--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+    z-index: 3;
+}
+
+.main__project--link:hover {
+    text-decoration: none;
+}
+
+.main__project--link:hover + div {
+    transition: background-color .5s;
+    background-color: transparent;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__titles {
+    margin-bottom: 50px;
 }

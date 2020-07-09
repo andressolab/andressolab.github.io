@@ -8,7 +8,7 @@ import React from 'react';
 const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _ID }) => (
 	<html>
 	<head>
-		<title>Cuttlebelle - { title }</title>
+		<title>Andrés Solano - { title }</title>
 		<meta charSet="utf-8" />
 		<meta httpEquiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />

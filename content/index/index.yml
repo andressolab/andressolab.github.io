@@ -7,7 +7,7 @@ header:
   - header.md
 
 main:
-  - Hola Hola Hola
+  - main.md
 
 footer:
   - footer.md
