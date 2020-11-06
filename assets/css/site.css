@@ -1,4 +1,6 @@
+@import "variables.css";
 @import "components/bodyText.css";
+
 a {
     color: black;
     text-decoration: none;

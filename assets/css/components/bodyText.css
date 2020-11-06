@@ -1,23 +1,23 @@
 .body-text__wrapper {
-    max-width: 30%;
-    margin: 0 80px;
+    margin: 0 22px;
 }
 
 .body-text__title {
-    font-size: 48px;
+    width: 60%;
+    font-size: 28px;
     margin: 16px 0;
 }
 .body-text__title strong {
-    color: purple;
+    color: var(--purple);
 }
 
 .body-text__subTitle {
-    font-size: 48px;
+    font-size: 28px;
     margin: 0;
-    line-height: 60px;
+    line-height: 34px;
 }
 .body-text__subTitle strong {
-    color: purple;
+    color: var(--purple);
 }
 
 .body-text__description {
@@ -25,5 +25,26 @@
     line-height: 34px;
 }
 .body-text__description strong {
-    color: purple;
+    color: var(--purple);
+}
+
+@media only screen and (min-width: 900px) {
+    .body-text__wrapper {
+        margin: 0 80px;
+        max-width: 30%;
+    }
+
+    .body-text__title {
+        font-size: 48px;
+        width: auto;
+    }
+
+    .body-text__subTitle {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .body-text__description {
+        font-size: 16px;
+    }
 }

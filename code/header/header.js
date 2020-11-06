@@ -43,7 +43,7 @@ const Header = ({title, buttons, buttonTypes, buttonHrefs, buttonIds}) => {
                     }
                 })}
             </div>
-            <Contact />
+            {/*<Contact />*/}
             <script src={"assets/js/header/header.js"}/>
         </div>
     )

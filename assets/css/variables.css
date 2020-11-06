@@ -1,0 +1,11 @@
+:root {
+    --purple: purple;
+}
+/* small breakpoint reference*/
+@media only screen and (min-width: 600px) {
+
+}
+/* medium breakpoint reference*/
+@media only screen and (min-width: 900px) {
+
+}
