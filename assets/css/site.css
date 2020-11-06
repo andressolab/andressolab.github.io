@@ -1,5 +1,6 @@
 @import "variables.css";
 @import "components/bodyText.css";
+@import "components/projectView.css";
 
 a {
     color: black;
@@ -49,6 +50,9 @@ main {
     width: 300px;
 }
 
+.footer__top-spacer {
+    margin-top: 58px;
+}
 .footer__wrapper {
     bottom: 0;
     display: flex;

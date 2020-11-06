@@ -3,12 +3,8 @@
 
 title: Portafolio
 
-header:
-  - ../header/header.md
-
 main:
   - ../components/mySummary.md
-
-
-footer:
-  - ../footer/footer.md
+  - ../components/fordProjectView.md
+  - ../components/dogsProjectView.md
+  - ../components/burguesaProjectView.md
