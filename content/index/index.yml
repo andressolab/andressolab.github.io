@@ -4,10 +4,11 @@
 title: Portafolio
 
 header:
-  - header.md
+  - ../header/header.md
 
 main:
-  - main.md
+  - ../components/mySummary.md
+
 
 footer:
-  - footer.md
+  - ../footer/footer.md

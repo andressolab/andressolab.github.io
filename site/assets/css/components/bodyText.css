@@ -1,0 +1,29 @@
+.body-text__wrapper {
+    max-width: 30%;
+    margin: 0 80px;
+}
+
+.body-text__title {
+    font-size: 48px;
+    margin: 16px 0;
+}
+.body-text__title strong {
+    color: purple;
+}
+
+.body-text__subTitle {
+    font-size: 48px;
+    margin: 0;
+    line-height: 60px;
+}
+.body-text__subTitle strong {
+    color: purple;
+}
+
+.body-text__description {
+    font-size: 16px;
+    line-height: 34px;
+}
+.body-text__description strong {
+    color: purple;
+}
