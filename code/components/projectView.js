@@ -3,8 +3,6 @@ import {formatString} from '../utils/stringUtils'
 
 
 const ProjectView = ({title, description, anchor, lateralBar, backgroundImages}) => {
-
-    console.log(backgroundImages[1])
     const leftBarStyles = {
         backgroundColor: `${(lateralBar[0] === 'left' || lateralBar[0] === 'both')? `#${lateralBar[1]}` : 'none'}`
     }
@@ -21,6 +19,7 @@ const ProjectView = ({title, description, anchor, lateralBar, backgroundImages})
                 <div
                     style={{backgroundImage: `url(${backgroundImages[0]})`}}
                     className="project-view__image-box">
+                    <div className="project-view__opaque_background"/>
                     {backgroundImages[2] ?
                         <div
                             style={{backgroundImage: `url(${backgroundImages[2]})`}}

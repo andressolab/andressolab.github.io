@@ -19,6 +19,15 @@
 
 .project-view__image-box {
     background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.project-view__opaque_background {
+    background-color: #1c1235;
+    height: 100%;
+    opacity: 60%;
+    position: absolute;
     width: 100%;
 }
 
@@ -27,6 +36,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: 288px;
+    position: relative;
     width: auto;
 }
 
@@ -79,7 +89,6 @@
     .project-view__phone-mock {
         height: 600px;
         width: 30%;
-
     }
 
     .project-view__phone-mock__left {
