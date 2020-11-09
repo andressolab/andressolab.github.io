@@ -10,5 +10,6 @@ lateralBar:
     - C14D5E;
 backgroundImages:
     - assets/images/projects/dogs/background.jpeg
+    - right
     - assets/images/projects/dogs/phoneMock.png
 ---

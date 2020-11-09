@@ -10,5 +10,6 @@ lateralBar:
     - FF9A26;
 backgroundImages:
     - assets/images/projects/burguesa/background.jpeg
+    - left
     - assets/images/projects/burguesa/phoneMock.png
 ---

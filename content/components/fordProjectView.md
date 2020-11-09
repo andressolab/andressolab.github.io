@@ -10,5 +10,6 @@ lateralBar:
     - 0F2C4E;
 backgroundImages:
     - assets/images/projects/ford/background.jpeg
+    - left
     - assets/images/projects/ford/phoneMock.png
 ---

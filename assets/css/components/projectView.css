@@ -22,6 +22,14 @@
     width: 100%;
 }
 
+.project-view__phone-mock {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 288px;
+    width: auto;
+}
+
 .project-view__project-info {
     margin: 0 22px;
     width: 80%;
@@ -51,6 +59,7 @@
 @media only screen and (min-width: 900px) {
     .project-view__wrapper {
         margin: 25px 0;
+        position: relative;
     }
 
     .project-view__image-wrapper {
@@ -67,9 +76,19 @@
         margin-left: 26px;
     }
 
-    .project-view__wrapper {
-        position: relative;
+    .project-view__phone-mock {
+        height: 600px;
+        width: 30%;
+
     }
+
+    .project-view__phone-mock__left {
+        margin-right: 65%;
+    }
+    .project-view__phone-mock__right {
+        margin-left: 65%;
+    }
+
     .project-view__project-info {
         left: 50%;
         position: absolute;
