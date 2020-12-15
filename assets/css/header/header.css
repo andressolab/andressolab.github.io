@@ -15,6 +15,7 @@
     width: 100%;
     z-index: 10;
 }
+
 .header__buttons-wrapper {
     display: flex;
     align-items: center;
@@ -30,6 +31,7 @@
     margin: 0;
     font-size: 72px;
 }
+
 .header__button {
     border: none;
     color: var(--purple2);
@@ -39,11 +41,13 @@
 }
 
 .header__language {
+    background: none;
     border: none;
     color: var(--purple2);
     margin-left: 24px;
     padding: 0;
 }
+
 .header__language:first-of-type {
     margin-left: 32px;
 }

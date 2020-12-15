@@ -19,6 +19,8 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 				? ( <link rel="stylesheet" href={ _relativeURL( `/assets/css/${ stylesheet }.css`, _ID ) } /> )
 				: null
 		}
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
 	</head>
 	<body>
 		<div className="top">
