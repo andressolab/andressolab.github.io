@@ -1,51 +1,50 @@
 import React from 'react'
-import Contact from "./contact-side-panel";
 
-const Header = ({title, buttons, buttonTypes, buttonHrefs, buttonIds}) => {
+const Header = ({title, buttons, buttonHrefs, languages}) => {
     return (
-        <div className="header__wrapper">
-            <h1
-                id="header__title"
-                className="header__title"
-            >
-                {title}
-            </h1>
-            <div className="header__buttons-wrapper">
-                <button
-                    id="header__button-test"
-                    className="header__button"
-                    onClick={() => {
-                        alert('test');
-                    }}
+        <>
+            <div className="header__box"/>
+            <div className="header__wrapper">
+                <h1
+                    // id="header__title"
+                    className="header__title"
                 >
-                    test
-                </button>
-                {buttons.map((btn, index) => {
-                    if (buttonHrefs[index]) {
-                        return (
-                            <a
-                                id={buttonIds[index]}
-                                className="header__button"
-                            >
-                                {btn}
-                            </a>
-                        )
-                    } else {
-                        return (
-                            <button
-                                id={buttonIds[index]}
-                                className="header__button"
-                                href={buttonHrefs[index]}
-                            >
-                                {btn}
-                            </button>
-                        )
-                    }
-                })}
+                    {title}
+                </h1>
+                <div className="header__buttons-wrapper">
+                    {/*<button*/}
+                    {/*    // id="header__button-test"*/}
+                    {/*    className="header__button"*/}
+                    {/*    onClick={() => {*/}
+                    {/*        alert('test');*/}
+                    {/*    }}*/}
+                    {/*>*/}
+                    {/*    test*/}
+                    {/*</button>*/}
+                    {buttons.map((btn, index) => {
+                        return (<a
+                            id={`header__button${index}`}
+                            className="header__button"
+                            href={buttonHrefs[index]}
+                        >
+                            {btn}
+                        </a>)
+
+                    })}
+                    <div className="header__section-division"/>
+                    {languages.map((btn, index) => {
+                        return (<button
+                            id={`header__languages__${btn}`}
+                            className="header__language"
+                        >
+                            {btn}
+                        </button>)
+                    })}
+                </div>
+                <script src={"assets/js/header/header.js"}/>
             </div>
-            {/*<Contact />*/}
-            <script src={"assets/js/header/header.js"}/>
-        </div>
+        </>
+
     )
 }
 

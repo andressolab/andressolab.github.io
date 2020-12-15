@@ -4,6 +4,7 @@
 title: Portafolio
 
 main:
+  - ../header/header.md
   - ../components/mySummary.md
   - ../components/fordProjectView.md
   - ../components/dogsProjectView.md

@@ -1,5 +1,7 @@
 :root {
     --purple: purple;
+    --purple2: #62508B;
+    --purple3: #1C1235;
 }
 /* small breakpoint reference*/
 @media only screen and (min-width: 600px) {
