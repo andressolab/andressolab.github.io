@@ -3,6 +3,7 @@ import React from 'react'
 const formatString = (s) => {
     let re = /\*\*.+?\*\*/;
     const formattedString = [];
+    let count = 0;
 
     s = s.replace(/\\n/g, '\n');
     let match = s.match(re);
@@ -15,7 +16,7 @@ const formatString = (s) => {
         s = s.slice(matchedString.length);
 
         matchedString = matchedString.slice(2, matchedString.length-2);
-        formattedString.push(<strong>{matchedString}</strong>);
+        formattedString.push(<strong key={count++}>{matchedString}</strong>);
 
         match = s.match(re);
     }

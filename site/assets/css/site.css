@@ -1,5 +1,6 @@
 @import "variables.css";
 @import "header/header.css";
+@import "header/burger_menu.css";
 @import "components/bodyText.css";
 @import "components/projectView.css";
 

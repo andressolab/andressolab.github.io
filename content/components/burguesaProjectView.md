@@ -7,7 +7,7 @@ anchor:
     - /burguesa
 lateralBar: 
     - left
-    - FF9A26;
+    - FF9A26
 backgroundImages:
     - assets/images/projects/burguesa/background.jpeg
     - left

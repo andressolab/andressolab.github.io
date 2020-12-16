@@ -1,6 +1,5 @@
 ---
 layout: header/header
-title: an.
 buttons:
     - About
     - Work

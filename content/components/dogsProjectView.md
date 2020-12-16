@@ -7,7 +7,7 @@ anchor:
     - #
 lateralBar: 
     - right
-    - C14D5E;
+    - C14D5E
 backgroundImages:
     - assets/images/projects/dogs/background.jpeg
     - right

@@ -1,15 +1,16 @@
 .header__box {
-    height: 100px;
+    height: 75px;
 }
 
 .header__wrapper {
     align-items: center;
+    background-color: white;
     box-sizing: border-box;
     display: flex;
-    height: 100px;
+    height: 75px;
     justify-content: space-between;
     left: 0;
-    padding: 0 80px;
+    padding: 0 22px;
     position: absolute;
     top: 0;
     width: 100%;
@@ -17,8 +18,7 @@
 }
 
 .header__buttons-wrapper {
-    display: flex;
-    align-items: center;
+    display: none;
 }
 
 .header__section-division {
@@ -27,9 +27,8 @@
 }
 
 .header__title {
-    color: var(--purple3);
-    margin: 0;
-    font-size: 72px;
+    width: auto;
+    height: 22px;
 }
 
 .header__button {
@@ -50,4 +49,24 @@
 
 .header__language:first-of-type {
     margin-left: 32px;
+}
+
+@media only screen and (min-width: 900px) {
+    .header__box {
+        height: 100px;
+    }
+
+    .header__wrapper {
+        height: 100px;
+        padding: 0 80px;
+    }
+
+    .header__title {
+        height: 40px;
+    }
+
+    .header__buttons-wrapper {
+        display: flex;
+        align-items: center;
+    }
 }

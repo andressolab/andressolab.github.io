@@ -7,7 +7,7 @@ anchor:
     - /ford
 lateralBar: 
     - left
-    - 0F2C4E;
+    - 0F2C4E
 backgroundImages:
     - assets/images/projects/ford/background.jpeg
     - left
