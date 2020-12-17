@@ -23,7 +23,7 @@ body {
 }
 
 body, html, .top {
-    height: 100vh;
+    /*height: 100%;*/
     overflow-x: hidden;
 }
 
