@@ -1,5 +1,6 @@
 @import "variables.css";
 @import "header/header.css";
+@import "footer/footer.css";
 @import "header/burger_menu.css";
 @import "components/bodyText.css";
 @import "components/projectView.css";
@@ -30,24 +31,6 @@ main {
     flex: 1;
     display: flex;
     flex-direction: column;
-}
-
-.footer__top-spacer {
-    margin-top: 58px;
-}
-.footer__wrapper {
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    left: 0;
-    margin: 20px 0;
-    position: absolute;
-    width: 100vw;
-    z-index: 10;
-}
-
-.footer__button {
-    margin: 20px;
 }
 
 .main__project {
